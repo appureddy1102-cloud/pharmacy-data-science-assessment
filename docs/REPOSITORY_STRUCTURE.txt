@@ -1,0 +1,27 @@
+pharmacy-data-science-assessment/
+├── README.md
+├── requirements.txt              # tested, pinned dependencies
+├── pyproject.toml                # editable Python package + tooling
+├── .gitignore
+├── docs/CI_WORKFLOW_TEMPLATE.yml # optional CI template; not an active workflow
+├── src/pharmacy_ds/              # generation, cleaning, statistics, plots
+├── exercises/                    # 16 runnable beginner practicals
+├── scripts/                      # run, verify, notebook and report builders
+├── tests/                        # schema, edge-case and numerical checks
+├── notebooks/
+│   └── 01_fundamentals_assessment.ipynb  # executed, embedded outputs
+├── data/
+│   ├── raw/pharmacy_operations_dirty.csv
+│   ├── processed/pharmacy_operations_clean.csv
+│   ├── processed/rejected_rows.csv
+│   └── data_dictionary.csv
+├── reports/
+│   ├── Data_Science_Fundamentals_Assessment.docx
+│   ├── figures/                  # seven PNG charts
+│   ├── tables/                   # descriptive and workflow CSV tables
+│   ├── cleaning_audit.json
+│   ├── statistical_results.json and .txt
+│   ├── exercise_outputs.json and .txt
+│   ├── test_results.txt
+│   └── execution / notebook / verification evidence
+└── docs/                         # theory, dictionary, findings, upload guide

@@ -1,0 +1,15 @@
+SYNTHETIC PHARMACY OPERATIONS — EXECUTED RESULTS
+Clean sites: 117; observed wait outcomes: 111
+Wait mean = 8.147 min; median = 8.150 min
+Sample variance = 2.732 min^2; sample SD = 1.653 min
+Standard: n=55, mean=8.678, SD=1.309 min
+Barcode-assisted: n=56, mean=7.625, SD=1.795 min
+Welch difference (Standard - Barcode-assisted) = 1.054 min
+95% CI = [0.463, 1.644] min
+t=3.5375, df=100.657, p=0.000612561
+At alpha=0.05: Reject H0 (simulation only; not a clinical claim).
+Workload vs wait: n=101, r=0.4842, covariance=18.6331
+P(site mean wait < 10 min | observed) = 99/111 = 0.8919
+Missing wait outcomes were NOT imputed; correlation excludes imputed workload inputs.
+This dataset is fictional and its generating formula includes a workflow effect.
+Figures saved: 7

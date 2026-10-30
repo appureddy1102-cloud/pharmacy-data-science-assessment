@@ -1,0 +1,52 @@
+{
+  "input_rows": 125,
+  "input_missing_by_column": {
+    "pharmacy_id": 1,
+    "report_date": 0,
+    "region": 2,
+    "pharmacy_type": 0,
+    "workflow": 0,
+    "daily_prescriptions": 4,
+    "staff_on_duty": 3,
+    "mean_wait_minutes": 5,
+    "stock_availability_pct": 3,
+    "inventory_value_inr": 2,
+    "expired_units": 0,
+    "stock_risk": 0,
+    "notes": 0
+  },
+  "exact_duplicates_removed": 5,
+  "rows_after_exact_deduplication": 120,
+  "critical_rows_rejected": 3,
+  "rejections_by_reason": {
+    "invalid_id": 1,
+    "invalid_workflow": 1,
+    "invalid_date": 1
+  },
+  "unknown_region_count": 3,
+  "invalid_numeric_values_converted": {
+    "daily_prescriptions": 2,
+    "staff_on_duty": 1,
+    "mean_wait_minutes": 1,
+    "stock_availability_pct": 1,
+    "inventory_value_inr": 1,
+    "expired_units": 0
+  },
+  "imputed_counts": {
+    "daily_prescriptions": 6,
+    "staff_on_duty": 4,
+    "stock_availability_pct": 4,
+    "inventory_value_inr": 3,
+    "expired_units": 0
+  },
+  "imputation_values": {
+    "daily_prescriptions": 147,
+    "staff_on_duty": 4,
+    "stock_availability_pct": 93.26,
+    "inventory_value_inr": 37380.83,
+    "expired_units": 2
+  },
+  "output_rows": 117,
+  "missing_wait_outcomes_retained": 6,
+  "observed_wait_outcomes": 111
+}

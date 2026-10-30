@@ -1,0 +1,12 @@
+[
+  {"id":"R1","author":"Python Software Foundation","title":"The Python Tutorial","url":"https://docs.python.org/3/tutorial/","note":"Basic types, data structures, control flow, functions and exceptions"},
+  {"id":"R2","author":"NumPy Developers","title":"NumPy: the absolute basics for beginners","url":"https://numpy.org/doc/stable/user/absolute_beginners.html","note":"Arrays, shapes, numerical operations and beginner conventions"},
+  {"id":"R3","author":"pandas Development Team","title":"10 minutes to pandas (version 2.2.3)","url":"https://pandas.pydata.org/pandas-docs/version/2.2.3/user_guide/10min.html","note":"Series, DataFrame, selection, missing data and grouping"},
+  {"id":"R4","author":"SciPy Community","title":"scipy.stats.ttest_ind","url":"https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html","note":"Independent-samples and Welch t-tests, assumptions and confidence intervals"},
+  {"id":"R5","author":"SciPy Community","title":"scipy.stats.shapiro","url":"https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.shapiro.html","note":"Shapiro–Wilk normality diagnostic and limitations"},
+  {"id":"R6","author":"NIST/SEMATECH","title":"e-Handbook of Statistical Methods: Normal Distribution","url":"https://www.itl.nist.gov/div898/handbook/eda/section3/eda3661.htm","note":"Normal distribution, standardization and distribution properties"},
+  {"id":"R7","author":"van Rossum, G.; Warsaw, B.; Coghlan, A.","title":"PEP 8 – Style Guide for Python Code","url":"https://peps.python.org/pep-0008/","note":"Readability, indentation, naming and code layout"},
+  {"id":"R8","author":"GitHub Docs","title":"Adding locally hosted code to GitHub","url":"https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github","note":"Git initialization, commits and safe repository publishing"},
+  {"id":"R9","author":"GitHub Docs","title":"Managing your personal access tokens","url":"https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens","note":"Credential management, least privilege and token security"},
+  {"id":"R10","author":"GitHub Docs","title":"Keeping your API credentials secure","url":"https://docs.github.com/en/rest/authentication/keeping-your-api-credentials-secure","note":"Secure storage and remediation after credential exposure"}
+]

@@ -1,0 +1,47 @@
+{
+  "started_at_utc": "2026-10-30T13:49:22.264603+00:00",
+  "status": "passed",
+  "steps": [
+    {
+      "step": "lint",
+      "return_code": 0,
+      "log": "reports/lint_results.txt"
+    },
+    {
+      "step": "generate_sample",
+      "return_code": 0,
+      "log": "reports/generation_execution.txt"
+    },
+    {
+      "step": "pipeline_and_exercises",
+      "return_code": 0,
+      "log": "reports/pipeline_execution.txt"
+    },
+    {
+      "step": "tests",
+      "return_code": 0,
+      "log": "reports/test_results.txt"
+    },
+    {
+      "step": "notebook",
+      "return_code": 0,
+      "log": "reports/notebook_execution.txt"
+    },
+    {
+      "step": "generated_notebook_lint",
+      "return_code": 0,
+      "log": "reports/notebook_lint_results.txt"
+    },
+    {
+      "step": "documentation",
+      "return_code": 0,
+      "log": "reports/documentation_build.txt"
+    },
+    {
+      "step": "word_report",
+      "return_code": 0,
+      "log": "reports/report_build.txt"
+    }
+  ],
+  "finished_at_utc": "2026-10-30T13:49:40.102659+00:00"
+}

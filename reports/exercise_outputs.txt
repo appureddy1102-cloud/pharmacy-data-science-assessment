@@ -1,0 +1,155 @@
+=== 01_variables.py ===
+Medicine: Paracetamol (fictional stock item)
+Types: str, int, float, bool
+Inventory value: INR 300.00
+After selling 15 units: 105 units
+
+=== 02_collections.py ===
+List: ['Antacid', 'ORS', 'Antacid', 'Bandage']
+Tuple: (15, 25)
+Unique items: ['Antacid', 'Bandage', 'ORS']
+ORS stock: 30
+Dictionary keys: ['Antacid', 'Bandage', 'ORS']
+List slice: ['Antacid', 'ORS']
+
+=== 03_control_flow.py ===
+Antacid: Adequate
+ORS: Reorder
+Bandage: Out of stock
+While loop: 3 steps; 0 units remaining
+Low-stock items: ['ORS', 'Bandage']
+
+=== 04_functions_and_errors.py ===
+Valid value: INR 300.00
+Handled validation error: Units and price cannot be negative.
+Handled conversion error: enter a whole number, for example 12.
+Input check completed.
+
+=== 05_numpy_basics.py ===
+Array: [10, 12, 8, 15, 5]
+First three: [10, 12, 8]
+After adding 2: [12, 14, 10, 17, 7]
+Mean=10.00; sample SD=3.808
+Shape: (3, 2)
+Column totals (axis=0): [23, 37]
+
+=== 06_pandas_basics.py ===
+Shape: (3, 5)
+Units Series: [50, 12, 20]
+Filtered rows:
+item  units
+ ORS     12
+Value by category:
+category
+Medicine    210.0
+Supply      160.0
+
+=== 07_cleaning_and_validation.py ===
+Input rows: 125
+Exact duplicates removed: 5
+Critical rows quarantined: 3
+Clean rows: 117
+Imputed numeric cells (with flags):
+  daily_prescriptions: 6; fill=147
+  staff_on_duty: 4; fill=4
+  stock_availability_pct: 4; fill=93.26
+  inventory_value_inr: 3; fill=37380.83
+  expired_units: 0; fill=2
+Unknown regions: 3
+Missing wait outcomes retained: 6
+Validation passed; no outcome was imputed.
+
+=== 08_data_types.py ===
+pharmacy_id: string
+report_date: datetime64[ns]
+workflow: category
+stock_risk: category
+daily_prescriptions: int64
+mean_wait_minutes: float64
+notes: string
+Risk order: ['Low', 'Medium', 'High']
+Risk is ordered: True
+CSV = structured table; notes content = unstructured text.
+An ID is nominal even when it contains digits.
+
+=== 09_eda.py ===
+Observed site waits by workflow:
+                  count  mean  median   std
+workflow                                   
+Barcode-assisted     56 7.625   7.555 1.795
+Standard             55 8.678   8.710 1.309
+Derived risk counts (include stock imputations):
+stock_risk
+Low       36
+Medium    74
+High       7
+IQR-fence potential wait outliers: 4; retained for analysis
+
+=== 10_descriptive_statistics.py ===
+Toy mean=5.000; median=4.500
+Toy mode=4
+Toy population variance=4.000
+Toy sample variance=4.571
+Toy sample SD=2.138
+Observed site waits: n=111, mean=8.147, median=8.150
+Sample variance=2.732; sample SD=1.653
+Staff modes (descriptive; includes imputations): [4]
+
+=== 11_probability_and_normal.py ===
+3 damaged packs out of 20: P(damaged)=0.1500
+Two damaged, with replacement: 0.0225
+Two damaged, without replacement: 0.0158
+P(site mean wait < 10 | observed)=99/111=0.8919
+P(site mean wait < 10 | Standard)=0.8727
+P(site mean wait < 10 | Barcode-assisted)=0.9107
+Hypothetical normal model: X ~ N(10, 2^2); not fitted to these data
+z at X=12: 1.0
+P(X <= 12)=0.8413
+P(8 <= X <= 12)=0.6827
+
+=== 12_correlation_covariance.py ===
+Complete observed workload/wait pairs: 101
+Sample covariance: 18.6331
+Covariance units: (prescriptions per staff member) * minutes
+Pearson correlation r: 0.4842
+Correlation does not establish causation; workflow is a possible confounder.
+
+=== 13_hypothesis_testing.py ===
+H0: Standard and Barcode-assisted population mean site waits are equal.
+H1: They differ. Prespecified alpha=0.05; two-sided Welch test.
+Standard: n=55, mean=8.678, SD=1.309
+  Shapiro-Wilk W=0.9857, p=0.7558
+Barcode-assisted: n=56, mean=7.625, SD=1.795
+  Shapiro-Wilk W=0.9668, p=0.1247
+Difference (Standard - Barcode-assisted)=1.054 min
+95% CI=[0.463, 1.644] min
+Welch t=3.5375; df=100.657; p=0.000612561
+Decision: Reject H0
+Independent simulated sites; no imputed outcomes. Simulation is not clinical evidence.
+
+=== 14_visualization.py ===
+Saved 7 figures:
+  reports/figures/01_wait_histogram.png
+  reports/figures/02_wait_by_workflow.png
+  reports/figures/03_workload_scatter.png
+  reports/figures/04_stock_risk_counts.png
+  reports/figures/05_raw_missingness.png
+  reports/figures/06_qq_standard.png
+  reports/figures/07_qq_barcode.png
+
+=== 15_validation_errors.py ===
+Rejected negative inventory: inventory_value_inr cannot contain negative values.
+Rejected duplicate ID: pharmacy_id must be unique.
+Rejected missing column: Missing required columns: workflow
+
+=== 16_git_workflow.py ===
+$ git init --quiet -b main
+$ git add README.md
+$ git diff --cached --stat
+README.md | 1 +
+ 1 file changed, 1 insertion(+)
+$ git -c commit.gpgsign=false commit --quiet -m Add assessment README
+$ git log -1 --oneline
+2cd2c5e Add assessment README
+$ git status --short
+Clean working tree; local demonstration only. No GitHub repository was created.

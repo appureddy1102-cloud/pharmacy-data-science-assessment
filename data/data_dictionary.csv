@@ -1,0 +1,18 @@
+column,measurement_type,clean_dtype,unit,definition_or_range,missing_or_invalid_policy
+pharmacy_id,Nominal identifier,string,none,PH001–PH120 fictional IDs; unique PH plus 3 digits,Critical: invalid or missing -> quarantine
+report_date,Temporal,datetime64[ns],YYYY-MM-DD,Synthetic snapshot 2026-09-30,Critical: invalid or missing -> quarantine
+region,Nominal categorical,category,none,Hyderabad; Warangal; Nalgonda; Unknown,Normalize whitespace/case; missing or unrecognized -> Unknown
+pharmacy_type,Nominal categorical,category,none,Community; Hospital; Unknown,Normalize text; unrecognized -> Unknown
+workflow,Nominal categorical,category,none,Standard; Barcode-assisted,Normalize text; invalid or missing -> quarantine
+daily_prescriptions,Numerical discrete,int64,prescriptions per site per day,Nonnegative whole count,Invalid -> missing; rounded median imputation with flag
+staff_on_duty,Numerical discrete,int64,staff members at site,Positive whole count,Invalid -> missing; rounded median imputation with flag
+mean_wait_minutes,Numerical continuous outcome,float64,minutes (site-level mean),Positive finite observed values; may remain missing,Invalid -> missing; NEVER imputed; observed-only analysis
+stock_availability_pct,Numerical continuous,float64,percent,Finite 0–100,Invalid -> missing; median imputation with flag
+inventory_value_inr,Numerical currency measurement,float64,INR,Finite nonnegative illustrative inventory value,Invalid -> missing; median imputation with flag; not production accounting
+expired_units,Numerical discrete,int64,units,Nonnegative whole count,Invalid -> missing; rounded median imputation with flag
+stock_risk,"Ordinal categorical, derived",ordered category,none,Low (>=95%); Medium (>=90% and <95%); High (<90%),Recomputed after cleaning; teaching-only thresholds
+notes,Unstructured text content within structured CSV,string,none,Fictional operational notes; no patient information,Strip whitespace; missing -> empty string
+raw_csv_row,"Discrete provenance field, derived",int64,1-based CSV line including header,Original source row; first data row is 2,Preserved after exact deduplication
+workload_per_staff,"Numerical continuous ratio, derived",float64,prescriptions per staff member per day,daily_prescriptions / staff_on_duty,Correlation excludes rows with imputed source inputs
+*_was_imputed,"Binary nominal flags, derived",bool,none,One flag for each of 5 designated non-outcome numeric columns,True iff source numeric value was missing or invalid
+mean_wait_minutes_missing,"Binary nominal flag, derived",bool,none,True iff wait outcome is absent after validation,No replacement of missing outcome

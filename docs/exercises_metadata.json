@@ -1,0 +1,82 @@
+{
+  "01_variables.py": {
+    "title": "01 · Variables and basic types",
+    "task": "Store a fictional medicine label, stock count, unit price and Boolean flag; compute inventory value.",
+    "explanation": "Use a string for names, an integer for counts, a float for measurements or illustrative prices, and a Boolean for yes/no flags. Production financial calculations should use Decimal or integer paise to avoid binary floating-point rounding."
+  },
+  "02_collections.py": {
+    "title": "02 · Lists, tuples, sets and dictionaries",
+    "task": "Organize stock items with four built-in collection types and inspect their behavior.",
+    "explanation": "Lists are ordered and mutable; tuples are ordered and immutable; sets keep unique hashable members without a dependable display order; dictionaries map unique keys to values and preserve insertion order. The storage-range tuple is fictional, not product storage guidance."
+  },
+  "03_control_flow.py": {
+    "title": "03 · Conditions and loops",
+    "task": "Assign stock status with if/elif/else and use for, while and a list comprehension.",
+    "explanation": "Condition order matters: zero stock is checked before the low-stock rule. The while loop decreases a counter every iteration, guaranteeing termination. The reorder threshold is a teaching rule, not a validated pharmacy policy."
+  },
+  "04_functions_and_errors.py": {
+    "title": "04 · Functions and exception handling",
+    "task": "Define a documented function, return a result, reject negative input, and catch conversion failures.",
+    "explanation": "Functions reduce duplication. Type hints document intended types but do not enforce them at runtime. Catch specific expected exceptions; do not silently ignore invalid input. The small arithmetic function illustrates a concept; the data pipeline adds finite-number, integer and range validation."
+  },
+  "05_numpy_basics.py": {
+    "title": "05 · NumPy basics",
+    "task": "Build and slice arrays, apply vectorized arithmetic, compute sample variation and aggregate over an axis.",
+    "explanation": "NumPy arrays normally share a numeric dtype and support efficient elementwise operations. axis=0 aggregates down rows into column totals. NumPy defaults to population variance/SD (ddof=0); pass ddof=1 when estimating sample variation."
+  },
+  "06_pandas_basics.py": {
+    "title": "06 · Pandas basics",
+    "task": "Create a DataFrame, select a Series, filter rows with .loc, calculate a column and group values.",
+    "explanation": "A Series is one labeled column; a DataFrame is a labeled table. Boolean filtering and groupby avoid error-prone row-by-row loops. Use explicit .loc assignment rather than chained indexing."
+  },
+  "07_cleaning_and_validation.py": {
+    "title": "07 · Missing values, duplicates and cleaning",
+    "task": "Clean the supplied CSV, quarantine critical defects and inspect the imputation audit.",
+    "explanation": "Keep raw data unchanged. Remove only exact duplicate records. Unrecognized workflow, invalid date and invalid ID are not guessed. Numeric predictors use flagged median imputation; count medians are rounded to whole numbers. Missing wait outcomes remain missing. Full implementation: src/pharmacy_ds/cleaning.py."
+  },
+  "08_data_types.py": {
+    "title": "08 · Analytical data types",
+    "task": "Inspect storage dtypes and preserve a meaningful ordinal category order.",
+    "explanation": "Numerical versus categorical is a semantic distinction, not merely a storage dtype. Pharmacy identifiers are nominal labels; wait is continuous; prescriptions are discrete; risk is ordinal. A CSV is structured while natural-language notes within it contain unstructured content."
+  },
+  "09_eda.py": {
+    "title": "09 · Exploratory data analysis",
+    "task": "Compare workflow summaries, count risk categories and flag possible outliers without deleting them.",
+    "explanation": "EDA examines distributions, missingness, relationships and surprising values before modeling. Summary denominators reflect observed outcomes. Risk counts are descriptive and include flagged stock imputations. An IQR flag is a prompt for investigation, not proof of an error."
+  },
+  "10_descriptive_statistics.py": {
+    "title": "10 · Mean, median, mode, variance and SD",
+    "task": "Verify a small hand-checkable dataset and compute sample statistics for site mean waits.",
+    "explanation": "The mean is sensitive to extreme values; the median describes the middle; the mode is most useful for categories or repeated discrete values. Sample variance uses n−1 and squared units; SD returns to the original units. Site mean wait is not the mean of all patient waiting times."
+  },
+  "11_probability_and_normal.py": {
+    "title": "11 · Probability and the normal distribution",
+    "task": "Calculate pack-selection probabilities, empirical site-level probabilities and a hypothetical normal-model probability.",
+    "explanation": "With-replacement draws can be independent; without-replacement draws change the second probability. Empirical probabilities use only records with observed outcomes. X ~ N(10, 2²) is a separate assumed model, not a normality claim about the pharmacy dataset."
+  },
+  "12_correlation_covariance.py": {
+    "title": "12 · Correlation and covariance",
+    "task": "Use observed workload inputs to calculate a paired sample covariance and Pearson r.",
+    "explanation": "Covariance has product units and depends on scale; Pearson r is unitless in [−1, 1] and measures linear association. Neither establishes causation. Workflow differences, nonlinearity or outliers can affect the pooled association."
+  },
+  "13_hypothesis_testing.py": {
+    "title": "13 · Hypothesis testing",
+    "task": "Compare independent pharmacy-level mean waits with a two-sided Welch test and a 95% confidence interval.",
+    "explanation": "Prespecify H0, H1 and alpha. Welch does not require equal variances but still needs independent observations and an adequately behaved sampling distribution. Inspect within-group Q–Q plots and Shapiro diagnostics; a nonsignificant normality test does not prove normality. The simulated effect was built into the generator."
+  },
+  "14_visualization.py": {
+    "title": "14 · Data visualization",
+    "task": "Regenerate seven clearly labeled PNG charts and verify the saved file names.",
+    "explanation": "Choose a histogram for a distribution, a box plot for group spreads, a scatter plot for two numerical variables, and a bar chart for categories. Q–Q plots assess shape within each workflow. Label axes, units, sample definitions and imputation policy. Actual images appear in the EDA section and executed notebook."
+  },
+  "15_validation_errors.py": {
+    "title": "15 · Data validation and safe failure",
+    "task": "Introduce three common integrity errors and confirm they raise useful validation errors.",
+    "explanation": "Validation guards against silently producing misleading results. Production code checks required columns, valid IDs, dates, uniqueness, finite numbers, integer counts, ranges and consistency of derived variables. Expected failures are caught and explained; unexpected failures should stop the run."
+  },
+  "16_git_workflow.py": {
+    "title": "16 · Git version control",
+    "task": "Run staging, a local commit, history inspection and a clean-status check in a disposable repository.",
+    "explanation": "Git records local history; GitHub hosts remote repositories. This is a real local Git demonstration with a fixed demonstration identity/date, not an authenticated GitHub upload. Review staged changes, use focused commits and never commit credentials. The temporary repository is removed after the exercise."
+  }
+}

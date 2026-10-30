@@ -1,0 +1,14 @@
+{
+  "owner": "appureddy1102-cloud",
+  "owner_id": 296548581,
+  "name": "pharmacy-data-science-assessment",
+  "full_name": "appureddy1102-cloud/pharmacy-data-science-assessment",
+  "html_url": "https://github.com/appureddy1102-cloud/pharmacy-data-science-assessment",
+  "default_branch": "main",
+  "private": true,
+  "created_at": "2026-10-30T13:47:53Z",
+  "visibility": "private",
+  "ci_configuration": "docs/CI_WORKFLOW_TEMPLATE.yml",
+  "ci_note": "Optional template only; no active workflow was installed and no cloud CI run is claimed.",
+  "credential_storage": "No access token is included in the repository files."
+}

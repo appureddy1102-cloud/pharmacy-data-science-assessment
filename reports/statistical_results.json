@@ -1,0 +1,77 @@
+{
+  "analysis_unit": "one fictional pharmacy; not an individual prescription",
+  "clean_rows": 117,
+  "observed_wait_n": 111,
+  "wait": {
+    "mean": 8.146666666666668,
+    "median": 8.15,
+    "sample_variance": 2.7322678787878782,
+    "sample_sd": 1.6529573130567765,
+    "minimum": 4.19,
+    "maximum": 12.02,
+    "q1": 7.255,
+    "q3": 9.025
+  },
+  "staff_modes": [
+    4
+  ],
+  "staff_mode_includes_imputed_values": true,
+  "workflow_summary": {
+    "Standard": {
+      "n": 55,
+      "mean": 8.678181818181818,
+      "median": 8.71,
+      "sample_sd": 1.30940909900313,
+      "sample_variance": 1.7145521885521886,
+      "missing_outcomes": 2,
+      "shapiro_w": 0.985725016621345,
+      "shapiro_p": 0.7558071612653217
+    },
+    "Barcode-assisted": {
+      "n": 56,
+      "mean": 7.624642857142858,
+      "median": 7.555,
+      "sample_sd": 1.794766091911513,
+      "sample_variance": 3.221185324675325,
+      "missing_outcomes": 4,
+      "shapiro_w": 0.9667614494523193,
+      "shapiro_p": 0.12472754732891617
+    }
+  },
+  "welch_test": {
+    "comparison": "Standard minus Barcode-assisted",
+    "alpha": 0.05,
+    "alternative": "two-sided",
+    "difference_minutes": 1.05353896103896,
+    "standard_error": 0.2978167937970485,
+    "t_statistic": 3.53754047112907,
+    "degrees_of_freedom": 100.65714805837601,
+    "p_value": 0.0006125613203013179,
+    "ci95_low": 0.46272615787633353,
+    "ci95_high": 1.6443517642015866,
+    "decision": "Reject H0"
+  },
+  "correlation": {
+    "complete_observed_n": 101,
+    "pearson_r": 0.4841844489218656,
+    "sample_covariance": 18.633065313531354,
+    "covariance_units": "(prescriptions per staff member) * minutes"
+  },
+  "probability": {
+    "event": "observed site mean wait below 10 minutes",
+    "success_count": 99,
+    "observed_n": 111,
+    "empirical_probability": 0.8918918918918919
+  },
+  "risk_counts": {
+    "Low": 36,
+    "Medium": 74,
+    "High": 7
+  },
+  "normal_example": {
+    "assumed_mean": 10,
+    "assumed_sd": 2,
+    "p_le_12": 0.8413447460685429,
+    "p_8_to_12": 0.6826894921370859
+  }
+}

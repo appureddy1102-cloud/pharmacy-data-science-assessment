@@ -1,0 +1,14 @@
+column,raw_missing_cells
+pharmacy_id,1
+report_date,0
+region,2
+pharmacy_type,0
+workflow,0
+daily_prescriptions,4
+staff_on_duty,3
+mean_wait_minutes,5
+stock_availability_pct,3
+inventory_value_inr,2
+expired_units,0
+stock_risk,0
+notes,0

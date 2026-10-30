@@ -1,0 +1,118 @@
+pharmacy_id,report_date,region,pharmacy_type,workflow,daily_prescriptions,staff_on_duty,mean_wait_minutes,stock_availability_pct,inventory_value_inr,expired_units,stock_risk,notes,raw_csv_row,daily_prescriptions_was_imputed,staff_on_duty_was_imputed,stock_availability_pct_was_imputed,inventory_value_inr_was_imputed,expired_units_was_imputed,mean_wait_minutes_missing,workload_per_staff
+PH004,2026-09-30,Nalgonda,Community,Barcode-assisted,108,5,6.16,96.45,25031.4,7,Low,Review reorder levels,5,False,False,False,False,False,False,21.6
+PH005,2026-09-30,Hyderabad,Hospital,Standard,80,4,8.75,92.48,20271.44,2,Medium,Stock counts verified,6,False,False,False,False,False,False,20.0
+PH006,2026-09-30,Nalgonda,Community,Standard,147,4,8.84,93.26,43274.75,1,Medium,Supplier delivery expected,7,True,False,False,False,False,False,36.75
+PH007,2026-09-30,Warangal,Hospital,Barcode-assisted,74,4,7.47,94.39,20183.55,4,Medium,Stock counts verified,8,False,True,False,False,False,False,18.5
+PH008,2026-09-30,Nalgonda,Hospital,Standard,141,2,7.46,91.05,32331.54,2,Medium,Stock counts verified,9,False,False,False,False,False,False,70.5
+PH009,2026-09-30,Nalgonda,Community,Barcode-assisted,78,2,,91.56,26386.0,6,Medium,Supplier delivery expected,10,False,False,False,False,False,True,39.0
+PH010,2026-09-30,Warangal,Community,Barcode-assisted,79,3,7.32,93.26,25039.03,4,Medium,Review reorder levels,11,False,False,True,False,False,False,26.333333333333332
+PH011,2026-09-30,Warangal,Community,Standard,121,3,8.51,95.87,37380.83,1,Low,Stock counts verified,12,False,False,False,True,False,False,40.333333333333336
+PH012,2026-09-30,Unknown,Community,Standard,67,6,7.58,94.49,16474.5,2,Medium,Supplier delivery expected,13,False,False,False,False,False,False,11.166666666666666
+PH013,2026-09-30,Warangal,Hospital,Barcode-assisted,147,3,8.42,90.67,50872.92,4,Medium,Routine stock check completed,14,True,False,False,False,False,False,49.0
+PH014,2026-09-30,Nalgonda,Community,Barcode-assisted,159,3,8.31,92.76,40304.64,3,Medium,Supplier delivery expected,15,False,False,False,False,False,False,53.0
+PH015,2026-09-30,Warangal,Community,Standard,147,2,10.72,92.57,54431.0,1,Medium,Supplier delivery expected,16,True,False,False,False,False,False,73.5
+PH016,2026-09-30,Hyderabad,Community,Standard,141,2,9.68,91.53,36023.22,5,Medium,Stock counts verified,17,False,False,False,False,False,False,70.5
+PH017,2026-09-30,Hyderabad,Hospital,Standard,151,5,8.4,93.4,35403.34,3,Medium,Stock counts verified,18,False,False,False,False,False,False,30.2
+PH018,2026-09-30,Warangal,Community,Barcode-assisted,158,4,9.0,92.55,35948.84,1,Medium,Supplier delivery expected,19,False,True,False,False,False,False,39.5
+PH019,2026-09-30,Warangal,Hospital,Barcode-assisted,137,5,6.16,93.26,34240.17,3,Medium,Stock counts verified,20,False,False,True,False,False,False,27.4
+PH020,2026-09-30,Hyderabad,Community,Barcode-assisted,152,2,9.62,92.28,37380.83,1,Medium,Supplier delivery expected,21,False,False,False,True,False,False,76.0
+PH021,2026-09-30,Nalgonda,Hospital,Barcode-assisted,147,5,7.84,92.79,33880.85,1,Medium,Stock counts verified,22,True,False,False,False,False,False,29.4
+PH022,2026-09-30,Hyderabad,Community,Standard,203,3,9.51,96.41,47885.84,3,Low,Routine stock check completed,23,False,False,False,False,False,False,67.66666666666667
+PH023,2026-09-30,Warangal,Hospital,Standard,112,2,8.32,92.03,28856.37,3,Medium,Review reorder levels,24,False,False,False,False,False,False,56.0
+PH024,2026-09-30,Nalgonda,Hospital,Standard,208,6,8.71,95.02,51554.61,1,Low,Stock counts verified,25,False,False,False,False,False,False,34.666666666666664
+PH025,2026-09-30,Hyderabad,Community,Barcode-assisted,91,3,8.13,95.08,22462.14,0,Low,Stock counts verified,26,False,False,False,False,False,False,30.333333333333332
+PH026,2026-09-30,Nalgonda,Community,Barcode-assisted,94,4,5.55,91.29,29562.68,1,Medium,Stock counts verified,27,False,True,False,False,False,False,23.5
+PH027,2026-09-30,Warangal,Hospital,Barcode-assisted,104,2,7.8,90.32,26428.34,3,Medium,Stock counts verified,28,False,False,False,False,False,False,52.0
+PH028,2026-09-30,Unknown,Community,Barcode-assisted,211,4,7.83,91.72,53664.68,0,Medium,Stock counts verified,29,False,False,False,False,False,False,52.75
+PH029,2026-09-30,Nalgonda,Hospital,Barcode-assisted,103,3,6.21,95.61,30992.41,1,Low,Routine stock check completed,30,False,False,False,False,False,False,34.333333333333336
+PH030,2026-09-30,Hyderabad,Hospital,Barcode-assisted,187,3,,91.26,49176.36,4,Medium,Review reorder levels,31,False,False,False,False,False,True,62.333333333333336
+PH031,2026-09-30,Hyderabad,Hospital,Barcode-assisted,155,5,4.89,92.53,36508.88,3,Medium,Stock counts verified,32,False,False,False,False,False,False,31.0
+PH032,2026-09-30,Warangal,Hospital,Barcode-assisted,164,5,5.56,86.79,43918.72,4,High,Review reorder levels,33,False,False,False,False,False,False,32.8
+PH033,2026-09-30,Hyderabad,Community,Standard,77,2,6.27,92.85,19859.82,3,Medium,Review reorder levels,34,False,False,False,False,False,False,38.5
+PH034,2026-09-30,Warangal,Community,Barcode-assisted,167,2,7.99,93.28,40364.71,2,Medium,Supplier delivery expected,35,False,False,False,False,False,False,83.5
+PH035,2026-09-30,Hyderabad,Community,Barcode-assisted,75,3,6.02,93.26,18937.99,1,Medium,Review reorder levels,36,False,False,True,False,False,False,25.0
+PH036,2026-09-30,Warangal,Community,Barcode-assisted,147,5,6.22,95.32,37599.24,0,Low,Supplier delivery expected,37,True,False,False,False,False,False,29.4
+PH037,2026-09-30,Nalgonda,Hospital,Standard,187,3,9.68,91.88,41484.35,4,Medium,Supplier delivery expected,38,False,False,False,False,False,False,62.333333333333336
+PH038,2026-09-30,Hyderabad,Community,Standard,208,4,8.57,92.31,54270.0,2,Medium,Routine stock check completed,39,False,False,False,False,False,False,52.0
+PH039,2026-09-30,Warangal,Community,Standard,219,2,9.85,93.8,47613.47,2,Medium,Supplier delivery expected,40,False,False,False,False,False,False,109.5
+PH040,2026-09-30,Nalgonda,Hospital,Standard,101,2,7.79,93.15,27427.66,4,Medium,Stock counts verified,41,False,False,False,False,False,False,50.5
+PH041,2026-09-30,Hyderabad,Hospital,Barcode-assisted,184,5,,87.98,48101.91,1,High,Review reorder levels,42,False,False,False,False,False,True,36.8
+PH042,2026-09-30,Hyderabad,Community,Standard,158,5,7.84,96.68,35938.89,3,Low,Stock counts verified,43,False,False,False,False,False,False,31.6
+PH043,2026-09-30,Warangal,Hospital,Standard,179,6,7.76,91.62,44762.47,4,Medium,Routine stock check completed,44,False,False,False,False,False,False,29.833333333333332
+PH044,2026-09-30,Warangal,Hospital,Barcode-assisted,192,4,9.77,96.56,46865.28,6,Low,Review reorder levels,45,False,False,False,False,False,False,48.0
+PH045,2026-09-30,Hyderabad,Hospital,Standard,138,3,10.68,97.67,37676.6,1,Low,Review reorder levels,46,False,False,False,False,False,False,46.0
+PH046,2026-09-30,Warangal,Community,Standard,86,4,9.75,96.62,26196.65,1,Low,Review reorder levels,47,False,False,False,False,False,False,21.5
+PH047,2026-09-30,Nalgonda,Community,Barcode-assisted,188,2,12.0,94.44,48817.63,3,Medium,Supplier delivery expected,48,False,False,False,False,False,False,94.0
+PH048,2026-09-30,Warangal,Community,Barcode-assisted,161,3,,97.73,42846.19,2,Low,Review reorder levels,49,False,False,False,False,False,True,53.666666666666664
+PH049,2026-09-30,Hyderabad,Community,Barcode-assisted,85,4,7.55,91.97,24887.17,1,Medium,Stock counts verified,50,False,False,False,False,False,False,21.25
+PH050,2026-09-30,Nalgonda,Community,Standard,127,5,8.92,95.23,31494.66,1,Low,Stock counts verified,51,False,False,False,False,False,False,25.4
+PH051,2026-09-30,Hyderabad,Community,Barcode-assisted,87,3,7.56,94.79,20790.57,3,Medium,Supplier delivery expected,52,False,False,False,False,False,False,29.0
+PH052,2026-09-30,Hyderabad,Community,Standard,184,3,12.02,90.32,41696.27,4,Medium,Review reorder levels,53,False,False,False,False,False,False,61.333333333333336
+PH053,2026-09-30,Nalgonda,Community,Barcode-assisted,117,2,11.37,98.27,34346.47,2,Low,Supplier delivery expected,54,False,False,False,False,False,False,58.5
+PH054,2026-09-30,Hyderabad,Community,Barcode-assisted,75,2,8.53,92.42,19781.76,2,Medium,Stock counts verified,55,False,False,False,False,False,False,37.5
+PH055,2026-09-30,Nalgonda,Hospital,Standard,109,4,8.84,92.54,32883.29,2,Medium,Routine stock check completed,56,False,False,False,False,False,False,27.25
+PH056,2026-09-30,Unknown,Community,Standard,159,6,6.41,95.28,37797.82,3,Low,Stock counts verified,57,False,False,False,False,False,False,26.5
+PH057,2026-09-30,Hyderabad,Community,Standard,157,4,6.86,96.22,35013.94,3,Low,Review reorder levels,58,False,False,False,False,False,False,39.25
+PH058,2026-09-30,Nalgonda,Hospital,Standard,198,2,11.41,90.53,45834.98,0,Medium,Supplier delivery expected,59,False,False,False,False,False,False,99.0
+PH059,2026-09-30,Warangal,Hospital,Standard,121,4,7.96,92.69,30564.18,1,Medium,Supplier delivery expected,60,False,True,False,False,False,False,30.25
+PH060,2026-09-30,Warangal,Community,Standard,163,2,8.06,93.82,36714.96,2,Medium,Stock counts verified,61,False,False,False,False,False,False,81.5
+PH061,2026-09-30,Hyderabad,Community,Barcode-assisted,212,5,7.22,89.76,50102.73,1,High,Stock counts verified,62,False,False,False,False,False,False,42.4
+PH062,2026-09-30,Nalgonda,Hospital,Barcode-assisted,115,4,7.39,92.34,33230.46,2,Medium,Routine stock check completed,63,False,False,False,False,False,False,28.75
+PH063,2026-09-30,Warangal,Community,Standard,69,3,9.07,92.37,19921.29,0,Medium,Supplier delivery expected,64,False,False,False,False,False,False,23.0
+PH064,2026-09-30,Hyderabad,Community,Standard,167,3,8.8,91.91,41260.47,3,Medium,Routine stock check completed,65,False,False,False,False,False,False,55.666666666666664
+PH065,2026-09-30,Nalgonda,Hospital,Standard,158,2,9.4,92.27,44168.34,2,Medium,Supplier delivery expected,66,False,False,False,False,False,False,79.0
+PH066,2026-09-30,Warangal,Community,Barcode-assisted,117,3,7.27,98.36,28115.54,0,Low,Stock counts verified,67,False,False,False,False,False,False,39.0
+PH067,2026-09-30,Hyderabad,Community,Barcode-assisted,152,4,7.46,95.99,37380.83,3,Low,Supplier delivery expected,68,False,False,False,True,False,False,38.0
+PH068,2026-09-30,Nalgonda,Hospital,Standard,169,4,6.91,93.52,46373.68,2,Medium,Routine stock check completed,69,False,False,False,False,False,False,42.25
+PH069,2026-09-30,Warangal,Hospital,Barcode-assisted,192,5,8.37,93.06,46529.38,2,Medium,Stock counts verified,70,False,False,False,False,False,False,38.4
+PH070,2026-09-30,Warangal,Community,Standard,85,6,10.45,97.91,24968.48,3,Low,Review reorder levels,71,False,False,False,False,False,False,14.166666666666666
+PH071,2026-09-30,Nalgonda,Community,Standard,138,2,10.51,94.0,35673.71,3,Medium,Stock counts verified,72,False,False,False,False,False,False,69.0
+PH072,2026-09-30,Warangal,Community,Barcode-assisted,108,6,4.57,97.61,25275.06,1,Low,Review reorder levels,73,False,False,False,False,False,False,18.0
+PH073,2026-09-30,Hyderabad,Community,Standard,117,4,8.15,97.7,32873.29,2,Low,Stock counts verified,74,False,False,False,False,False,False,29.25
+PH074,2026-09-30,Nalgonda,Community,Barcode-assisted,70,2,4.74,91.43,24864.7,5,Medium,Routine stock check completed,75,False,False,False,False,False,False,35.0
+PH075,2026-09-30,Hyderabad,Hospital,Barcode-assisted,147,6,4.19,89.42,37602.48,1,High,Routine stock check completed,76,True,False,False,False,False,False,24.5
+PH076,2026-09-30,Warangal,Community,Barcode-assisted,78,6,7.24,95.78,23453.35,2,Low,Routine stock check completed,77,False,False,False,False,False,False,13.0
+PH077,2026-09-30,Warangal,Community,Standard,209,3,9.54,92.56,48738.86,1,Medium,Routine stock check completed,78,False,False,False,False,False,False,69.66666666666667
+PH078,2026-09-30,Nalgonda,Community,Standard,151,2,8.71,93.45,39627.35,1,Medium,Routine stock check completed,79,False,False,False,False,False,False,75.5
+PH079,2026-09-30,Hyderabad,Community,Standard,130,3,5.7,92.05,37773.86,3,Medium,Review reorder levels,80,False,False,False,False,False,False,43.333333333333336
+PH080,2026-09-30,Hyderabad,Community,Barcode-assisted,101,6,4.78,94.9,32002.29,2,Medium,Routine stock check completed,81,False,False,False,False,False,False,16.833333333333332
+PH081,2026-09-30,Warangal,Community,Standard,211,6,8.45,93.26,48498.07,0,Medium,Stock counts verified,82,False,False,True,False,False,False,35.166666666666664
+PH082,2026-09-30,Warangal,Community,Barcode-assisted,145,3,7.63,94.86,40839.02,2,Medium,Supplier delivery expected,83,False,False,False,False,False,False,48.333333333333336
+PH083,2026-09-30,Hyderabad,Community,Barcode-assisted,218,4,8.74,96.06,54217.75,3,Low,Supplier delivery expected,84,False,False,False,False,False,False,54.5
+PH084,2026-09-30,Warangal,Hospital,Standard,167,5,,88.58,44852.45,0,High,Review reorder levels,85,False,False,False,False,False,True,33.4
+PH085,2026-09-30,Hyderabad,Community,Barcode-assisted,219,2,9.27,87.59,49081.07,4,High,Supplier delivery expected,86,False,False,False,False,False,False,109.5
+PH086,2026-09-30,Nalgonda,Hospital,Standard,202,5,9.05,97.12,53194.34,1,Low,Supplier delivery expected,87,False,False,False,False,False,False,40.4
+PH087,2026-09-30,Nalgonda,Community,Barcode-assisted,180,3,7.81,94.32,46458.42,1,Medium,Stock counts verified,88,False,False,False,False,False,False,60.0
+PH088,2026-09-30,Hyderabad,Community,Barcode-assisted,120,6,5.93,97.18,28281.92,0,Low,Routine stock check completed,89,False,False,False,False,False,False,20.0
+PH089,2026-09-30,Warangal,Hospital,Barcode-assisted,186,2,8.82,91.5,45691.15,3,Medium,Routine stock check completed,90,False,False,False,False,False,False,93.0
+PH090,2026-09-30,Nalgonda,Community,Standard,114,6,8.96,94.1,26499.57,0,Medium,Stock counts verified,91,False,False,False,False,False,False,19.0
+PH091,2026-09-30,Warangal,Community,Standard,199,5,7.0,94.01,50173.58,3,Medium,Stock counts verified,92,False,False,False,False,False,False,39.8
+PH092,2026-09-30,Nalgonda,Community,Barcode-assisted,113,3,8.76,91.46,30884.22,1,Medium,Stock counts verified,93,False,False,False,False,False,False,37.666666666666664
+PH093,2026-09-30,Nalgonda,Hospital,Standard,77,6,9.44,92.02,23163.73,3,Medium,Stock counts verified,94,False,False,False,False,False,False,12.833333333333334
+PH094,2026-09-30,Nalgonda,Community,Standard,83,5,7.63,92.48,26978.68,4,Medium,Stock counts verified,95,False,False,False,False,False,False,16.6
+PH095,2026-09-30,Warangal,Hospital,Standard,135,4,8.53,94.27,37162.43,2,Medium,Review reorder levels,96,False,False,False,False,False,False,33.75
+PH096,2026-09-30,Warangal,Hospital,Barcode-assisted,168,5,5.17,95.57,37651.3,3,Low,Supplier delivery expected,97,False,False,False,False,False,False,33.6
+PH097,2026-09-30,Hyderabad,Hospital,Standard,110,5,10.96,98.98,31840.32,3,Low,Stock counts verified,98,False,False,False,False,False,False,22.0
+PH098,2026-09-30,Warangal,Hospital,Barcode-assisted,192,2,10.58,93.05,46963.92,5,Medium,Review reorder levels,99,False,False,False,False,False,False,96.0
+PH099,2026-09-30,Nalgonda,Hospital,Standard,104,3,8.45,95.12,25133.42,2,Low,Stock counts verified,100,False,False,False,False,False,False,34.666666666666664
+PH100,2026-09-30,Nalgonda,Community,Barcode-assisted,138,5,6.94,98.65,33778.2,0,Low,Stock counts verified,101,False,False,False,False,False,False,27.6
+PH101,2026-09-30,Warangal,Community,Standard,117,4,8.63,92.3,30907.34,1,Medium,Review reorder levels,102,False,False,False,False,False,False,29.25
+PH102,2026-09-30,Hyderabad,Community,Standard,152,3,7.89,90.82,41579.03,2,Medium,Routine stock check completed,103,False,False,False,False,False,False,50.666666666666664
+PH103,2026-09-30,Nalgonda,Community,Standard,94,4,8.2,93.25,29618.08,1,Medium,Review reorder levels,104,False,False,False,False,False,False,23.5
+PH104,2026-09-30,Hyderabad,Community,Standard,214,2,9.5,91.55,47409.97,1,Medium,Supplier delivery expected,105,False,False,False,False,False,False,107.0
+PH105,2026-09-30,Hyderabad,Community,Barcode-assisted,209,6,7.79,98.92,49590.47,1,Low,Routine stock check completed,106,False,False,False,False,False,False,34.833333333333336
+PH106,2026-09-30,Nalgonda,Community,Barcode-assisted,174,4,6.51,92.52,46053.53,3,Medium,Stock counts verified,107,False,False,False,False,False,False,43.5
+PH107,2026-09-30,Nalgonda,Community,Standard,147,2,,96.06,38092.46,0,Low,Supplier delivery expected,108,False,False,False,False,False,True,73.5
+PH108,2026-09-30,Nalgonda,Community,Barcode-assisted,181,4,7.32,92.1,47634.04,2,Medium,Routine stock check completed,109,False,False,False,False,False,False,45.25
+PH109,2026-09-30,Nalgonda,Community,Barcode-assisted,138,5,7.23,95.66,36153.97,1,Low,Stock counts verified,110,False,False,False,False,False,False,27.6
+PH110,2026-09-30,Nalgonda,Community,Barcode-assisted,203,4,11.67,94.66,46248.84,2,Medium,Review reorder levels,111,False,False,False,False,False,False,50.75
+PH111,2026-09-30,Hyderabad,Hospital,Standard,75,4,8.74,96.21,22027.1,1,Low,Supplier delivery expected,112,False,False,False,False,False,False,18.75
+PH112,2026-09-30,Warangal,Community,Barcode-assisted,98,5,6.95,96.91,26973.97,2,Low,Routine stock check completed,113,False,False,False,False,False,False,19.6
+PH113,2026-09-30,Warangal,Hospital,Standard,136,2,9.44,91.24,38553.74,1,Medium,Stock counts verified,114,False,False,False,False,False,False,68.0
+PH114,2026-09-30,Nalgonda,Community,Barcode-assisted,166,4,5.95,97.15,39739.65,3,Low,Stock counts verified,115,False,False,False,False,False,False,41.5
+PH115,2026-09-30,Warangal,Community,Barcode-assisted,175,4,8.89,95.83,40482.4,3,Low,Routine stock check completed,116,False,False,False,False,False,False,43.75
+PH116,2026-09-30,Nalgonda,Community,Barcode-assisted,176,6,9.09,92.61,45574.15,1,Medium,Review reorder levels,117,False,False,False,False,False,False,29.333333333333332
+PH117,2026-09-30,Hyderabad,Community,Barcode-assisted,211,4,7.83,94.1,49796.02,5,Medium,Routine stock check completed,118,False,False,False,False,False,False,52.75
+PH118,2026-09-30,Hyderabad,Community,Barcode-assisted,196,2,11.59,89.38,47261.33,1,High,Stock counts verified,119,False,False,False,False,False,False,98.0
+PH119,2026-09-30,Nalgonda,Hospital,Standard,207,6,8.06,94.13,54247.57,3,Medium,Routine stock check completed,120,False,False,False,False,False,False,34.5
+PH120,2026-09-30,Nalgonda,Community,Standard,118,3,5.98,90.8,32689.13,2,Medium,Stock counts verified,121,False,False,False,False,False,False,39.333333333333336

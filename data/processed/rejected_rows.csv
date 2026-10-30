@@ -1,0 +1,4 @@
+pharmacy_id,report_date,region,pharmacy_type,workflow,daily_prescriptions,staff_on_duty,mean_wait_minutes,stock_availability_pct,inventory_value_inr,expired_units,stock_risk,notes,raw_csv_row,rejection_reason
+,2026-09-30,Hyderabad,Hospital,Standard,70.0,5.0,9.02,93.82,21984.62,3.0,Medium,Supplier delivery expected,2,invalid pharmacy_id
+PH002,2026-09-30,Nalgonda,Community,unrecognized workflow,111.0,5.0,8.53,92.19,30523.34,2.0,Medium,Routine stock check completed,3,invalid workflow
+PH003,not-a-date,Hyderabad,Community,Standard,217.0,5.0,8.67,92.56,56220.85,0.0,Medium,Review reorder levels,4,invalid report_date

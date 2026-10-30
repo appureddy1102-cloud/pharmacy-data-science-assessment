@@ -1,0 +1,126 @@
+pharmacy_id,report_date,region,pharmacy_type,workflow,daily_prescriptions,staff_on_duty,mean_wait_minutes,stock_availability_pct,inventory_value_inr,expired_units,stock_risk,notes
+,2026-09-30,Hyderabad,Hospital,Standard,70.0,5.0,9.02,93.82,21984.62,3.0,Medium,Supplier delivery expected
+PH002,2026-09-30,Nalgonda,Community,unrecognized workflow,111.0,5.0,8.53,92.19,30523.34,2.0,Medium,Routine stock check completed
+PH003,not-a-date,Hyderabad,Community,Standard,217.0,5.0,8.67,92.56,56220.85,0.0,Medium,Review reorder levels
+PH004,2026-09-30,Nalgonda,Community,Barcode-assisted,108.0,5.0,6.16,96.45,25031.4,7.0,Low,Review reorder levels
+PH005,2026-09-30,Hyderabad,Hospital,Standard,80.0,4.0,8.75,92.48,20271.44,2.0,Medium,Stock counts verified
+PH006,2026-09-30,Nalgonda,Community,Standard,,4.0,8.84,93.26,43274.75,1.0,Medium,Supplier delivery expected
+PH007,2026-09-30,Warangal,Hospital,Barcode-assisted,74.0,,7.47,94.39,20183.55,4.0,Medium,Stock counts verified
+PH008,2026-09-30,Nalgonda,Hospital,Standard,141.0,2.0,7.46,91.05,32331.54,2.0,Medium,Stock counts verified
+PH009,2026-09-30,Nalgonda,Community,Barcode-assisted,78.0,2.0,,91.56,26386.0,6.0,Medium,Supplier delivery expected
+PH010,2026-09-30,Warangal,Community,Barcode-assisted,79.0,3.0,7.32,,25039.03,4.0,Medium,Review reorder levels
+PH011,2026-09-30,Warangal,Community,Standard,121.0,3.0,8.51,95.87,,1.0,Low,Stock counts verified
+PH012,2026-09-30,,Community,Standard,67.0,6.0,7.58,94.49,16474.5,2.0,Medium,Supplier delivery expected
+PH013,2026-09-30,Warangal,Hospital,Barcode-assisted,,3.0,8.42,90.67,50872.92,4.0,Medium,Routine stock check completed
+PH014,2026-09-30, nalgonda ,Community,Barcode-assisted,159.0,3.0,8.31,92.76,40304.64,3.0,Medium,Supplier delivery expected
+PH015,2026-09-30,Warangal,Community,Standard,-15.0,2.0,10.72,92.57,54431.0,1.0,Medium,Supplier delivery expected
+PH016,2026-09-30,Hyderabad,Community, STANDARD ,141.0,2.0,9.68,91.53,36023.22,5.0,Medium,Stock counts verified
+PH017,2026-09-30,Hyderabad, hospital ,Standard,151.0,5.0,8.4,93.4,35403.34,3.0,Medium,Stock counts verified
+PH018,2026-09-30,Warangal,Community,Barcode-assisted,158.0,0.0,9.0,92.55,35948.84,1.0,Medium,Supplier delivery expected
+PH019,2026-09-30,Warangal,Hospital,Barcode-assisted,137.0,5.0,6.16,135.0,34240.17,3.0,Medium,Stock counts verified
+PH020,2026-09-30,Hyderabad,Community,Barcode-assisted,152.0,2.0,9.62,92.28,-500.0,1.0,Medium,Supplier delivery expected
+PH021,2026-09-30,Nalgonda,Hospital,Barcode-assisted,121.5,5.0,7.84,92.79,33880.85,1.0,Medium,Stock counts verified
+PH022,2026-09-30,Hyderabad,Community,Standard,203.0,3.0,9.51,96.41,47885.84,3.0,Low,Routine stock check completed
+PH023,2026-09-30,Warangal,Hospital,Standard,112.0,2.0,8.32,92.03,28856.37,3.0,Medium,Review reorder levels
+PH024,2026-09-30,Nalgonda,Hospital,Standard,208.0,6.0,8.71,95.02,51554.61,1.0,Low,Stock counts verified
+PH025,2026-09-30,Hyderabad,Community,Barcode-assisted,91.0,3.0,8.13,95.08,22462.14,0.0,Low,Stock counts verified
+PH026,2026-09-30,Nalgonda,Community,Barcode-assisted,94.0,,5.55,91.29,29562.68,1.0,Medium,Stock counts verified
+PH027,2026-09-30,Warangal,Hospital,Barcode-assisted,104.0,2.0,7.8,90.32,26428.34,3.0,Medium,Stock counts verified
+PH028,2026-09-30,??,Community,Barcode-assisted,211.0,4.0,7.83,91.72,53664.68,0.0,Medium,Stock counts verified
+PH029,2026-09-30,Nalgonda,Hospital,Barcode-assisted,103.0,3.0,6.21,95.61,30992.41,1.0,Low,Routine stock check completed
+PH030,2026-09-30,Hyderabad,Hospital,Barcode-assisted,187.0,3.0,,91.26,49176.36,4.0,Medium,Review reorder levels
+PH031,2026-09-30,Hyderabad,Hospital,Barcode-assisted,155.0,5.0,4.89,92.53,36508.88,3.0,Medium,Stock counts verified
+PH032,2026-09-30,Warangal,Hospital,Barcode-assisted,164.0,5.0,5.56,86.79,43918.72,4.0,High,Review reorder levels
+PH033,2026-09-30,Hyderabad,Community,Standard,77.0,2.0,6.27,92.85,19859.82,3.0,Medium,Review reorder levels
+PH034,2026-09-30,Warangal,Community,Barcode-assisted,167.0,2.0,7.99,93.28,40364.71,2.0,Medium,Supplier delivery expected
+PH035,2026-09-30,Hyderabad,Community,Barcode-assisted,75.0,3.0,6.02,,18937.99,1.0,Low,Review reorder levels
+PH036,2026-09-30,Warangal,Community,Barcode-assisted,,5.0,6.22,95.32,37599.24,0.0,Low,Supplier delivery expected
+PH037,2026-09-30,Nalgonda,Hospital,Standard,187.0,3.0,9.68,91.88,41484.35,4.0,Medium,Supplier delivery expected
+PH038,2026-09-30,Hyderabad,Community,Standard,208.0,4.0,8.57,92.31,54270.0,2.0,Medium,Routine stock check completed
+PH039,2026-09-30,Warangal,Community,Standard,219.0,2.0,9.85,93.8,47613.47,2.0,Medium,Supplier delivery expected
+PH040,2026-09-30,Nalgonda,Hospital,Standard,101.0,2.0,7.79,93.15,27427.66,4.0,Medium,Stock counts verified
+PH041,2026-09-30,Hyderabad,Hospital,Barcode-assisted,184.0,5.0,-2.0,87.98,48101.91,1.0,High,Review reorder levels
+PH042,2026-09-30,Hyderabad,Community,Standard,158.0,5.0,7.84,96.68,35938.89,3.0,Low,Stock counts verified
+PH043,2026-09-30,Warangal,Hospital,Standard,179.0,6.0,7.76,91.62,44762.47,4.0,Medium,Routine stock check completed
+PH044,2026-09-30,Warangal,Hospital,Barcode-assisted,192.0,4.0,9.77,96.56,46865.28,6.0,Low,Review reorder levels
+PH045,2026-09-30,Hyderabad,Hospital,Standard,138.0,3.0,10.68,97.67,37676.6,1.0,Low,Review reorder levels
+PH046,2026-09-30,Warangal,Community,Standard,86.0,4.0,9.75,96.62,26196.65,1.0,Low,Review reorder levels
+PH047,2026-09-30,Nalgonda,Community,Barcode-assisted,188.0,2.0,12.0,94.44,48817.63,3.0,Medium,Supplier delivery expected
+PH048,2026-09-30,Warangal,Community,Barcode-assisted,161.0,3.0,,97.73,42846.19,2.0,Low,Review reorder levels
+PH049,2026-09-30,Hyderabad,Community,Barcode-assisted,85.0,4.0,7.55,91.97,24887.17,1.0,Medium,Stock counts verified
+PH050,2026-09-30,Nalgonda,Community,Standard,127.0,5.0,8.92,95.23,31494.66,1.0,Low,Stock counts verified
+PH051,2026-09-30,Hyderabad,Community,Barcode-assisted,87.0,3.0,7.56,94.79,20790.57,3.0,Medium,Supplier delivery expected
+PH052,2026-09-30,Hyderabad,Community,Standard,184.0,3.0,12.02,90.32,41696.27,4.0,Medium,Review reorder levels
+PH053,2026-09-30,Nalgonda,Community,Barcode-assisted,117.0,2.0,11.37,98.27,34346.47,2.0,Low,Supplier delivery expected
+PH054,2026-09-30,Hyderabad,Community,Barcode-assisted,75.0,2.0,8.53,92.42,19781.76,2.0,Medium,Stock counts verified
+PH055,2026-09-30,Nalgonda,Hospital,Standard,109.0,4.0,8.84,92.54,32883.29,2.0,Medium,Routine stock check completed
+PH056,2026-09-30,,Community,Standard,159.0,6.0,6.41,95.28,37797.82,3.0,Low,Stock counts verified
+PH057,2026-09-30,Hyderabad,Community,Standard,157.0,4.0,6.86,96.22,35013.94,3.0,Low,Review reorder levels
+PH058,2026-09-30,Nalgonda,Hospital,Standard,198.0,2.0,11.41,90.53,45834.98,0.0,Medium,Supplier delivery expected
+PH059,2026-09-30,Warangal,Hospital,Standard,121.0,,7.96,92.69,30564.18,1.0,Medium,Supplier delivery expected
+PH060,2026-09-30,Warangal,Community,Standard,163.0,2.0,8.06,93.82,36714.96,2.0,Medium,Stock counts verified
+PH061,2026-09-30,Hyderabad,Community,Barcode-assisted,212.0,5.0,7.22,89.76,50102.73,1.0,High,Stock counts verified
+PH062,2026-09-30,Nalgonda,Hospital,Barcode-assisted,115.0,4.0,7.39,92.34,33230.46,2.0,Medium,Routine stock check completed
+PH063,2026-09-30,Warangal,Community,Standard,69.0,3.0,9.07,92.37,19921.29,0.0,Medium,Supplier delivery expected
+PH064,2026-09-30,Hyderabad,Community,Standard,167.0,3.0,8.8,91.91,41260.47,3.0,Medium,Routine stock check completed
+PH065,2026-09-30,Nalgonda,Hospital,Standard,158.0,2.0,9.4,92.27,44168.34,2.0,Medium,Supplier delivery expected
+PH066,2026-09-30,Warangal,Community,Barcode-assisted,117.0,3.0,7.27,98.36,28115.54,0.0,Low,Stock counts verified
+PH067,2026-09-30,Hyderabad,Community,Barcode-assisted,152.0,4.0,7.46,95.99,,3.0,Low,Supplier delivery expected
+PH068,2026-09-30,Nalgonda,Hospital,Standard,169.0,4.0,6.91,93.52,46373.68,2.0,Medium,Routine stock check completed
+PH069,2026-09-30,Warangal,Hospital,Barcode-assisted,192.0,5.0,8.37,93.06,46529.38,2.0,Medium,Stock counts verified
+PH070,2026-09-30,Warangal,Community,Standard,85.0,6.0,10.45,97.91,24968.48,3.0,Low,Review reorder levels
+PH071,2026-09-30,Nalgonda,Community,Standard,138.0,2.0,10.51,94.0,35673.71,3.0,Medium,Stock counts verified
+PH072,2026-09-30,Warangal,Community,Barcode-assisted,108.0,6.0,4.57,97.61,25275.06,1.0,Low,Review reorder levels
+PH073,2026-09-30,Hyderabad,Community,Standard,117.0,4.0,8.15,97.7,32873.29,2.0,Low,Stock counts verified
+PH074,2026-09-30,Nalgonda,Community,Barcode-assisted,70.0,2.0,4.74,91.43,24864.7,5.0,Medium,Routine stock check completed
+PH075,2026-09-30,Hyderabad,Hospital,Barcode-assisted,,6.0,4.19,89.42,37602.48,1.0,High,Routine stock check completed
+PH076,2026-09-30,Warangal,Community,Barcode-assisted,78.0,6.0,7.24,95.78,23453.35,2.0,Low,Routine stock check completed
+PH077,2026-09-30,Warangal,Community,Standard,209.0,3.0,9.54,92.56,48738.86,1.0,Medium,Routine stock check completed
+PH078,2026-09-30,Nalgonda,Community,Standard,151.0,2.0,8.71,93.45,39627.35,1.0,Medium,Routine stock check completed
+PH079,2026-09-30,Hyderabad,Community,Standard,130.0,3.0,5.7,92.05,37773.86,3.0,Medium,Review reorder levels
+PH080,2026-09-30,Hyderabad,Community,Barcode-assisted,101.0,6.0,4.78,94.9,32002.29,2.0,Medium,Routine stock check completed
+PH081,2026-09-30,Warangal,Community,Standard,211.0,6.0,8.45,,48498.07,0.0,Low,Stock counts verified
+PH082,2026-09-30,Warangal,Community,Barcode-assisted,145.0,3.0,7.63,94.86,40839.02,2.0,Medium,Supplier delivery expected
+PH083,2026-09-30,Hyderabad,Community,Barcode-assisted,218.0,4.0,8.74,96.06,54217.75,3.0,Low,Supplier delivery expected
+PH084,2026-09-30,Warangal,Hospital,Standard,167.0,5.0,,88.58,44852.45,0.0,High,Review reorder levels
+PH085,2026-09-30,Hyderabad,Community,Barcode-assisted,219.0,2.0,9.27,87.59,49081.07,4.0,High,Supplier delivery expected
+PH086,2026-09-30,Nalgonda,Hospital,Standard,202.0,5.0,9.05,97.12,53194.34,1.0,Low,Supplier delivery expected
+PH087,2026-09-30,Nalgonda,Community,Barcode-assisted,180.0,3.0,7.81,94.32,46458.42,1.0,Medium,Stock counts verified
+PH088,2026-09-30,Hyderabad,Community,Barcode-assisted,120.0,6.0,5.93,97.18,28281.92,0.0,Low,Routine stock check completed
+PH089,2026-09-30,Warangal,Hospital,Barcode-assisted,186.0,2.0,8.82,91.5,45691.15,3.0,Medium,Routine stock check completed
+PH090,2026-09-30,Nalgonda,Community,Standard,114.0,6.0,8.96,94.1,26499.57,0.0,Medium,Stock counts verified
+PH091,2026-09-30,Warangal,Community,Standard,199.0,5.0,7.0,94.01,50173.58,3.0,Medium,Stock counts verified
+PH092,2026-09-30,Nalgonda,Community,Barcode-assisted,113.0,3.0,8.76,91.46,30884.22,1.0,Medium,Stock counts verified
+PH093,2026-09-30,Nalgonda,Hospital,Standard,77.0,6.0,9.44,92.02,23163.73,3.0,Medium,Stock counts verified
+PH094,2026-09-30,Nalgonda,Community,Standard,83.0,5.0,7.63,92.48,26978.68,4.0,Medium,Stock counts verified
+PH095,2026-09-30,Warangal,Hospital,Standard,135.0,4.0,8.53,94.27,37162.43,2.0,Medium,Review reorder levels
+PH096,2026-09-30,Warangal,Hospital,Barcode-assisted,168.0,5.0,5.17,95.57,37651.3,3.0,Low,Supplier delivery expected
+PH097,2026-09-30,Hyderabad,Hospital,Standard,110.0,5.0,10.96,98.98,31840.32,3.0,Low,Stock counts verified
+PH098,2026-09-30,Warangal,Hospital,Barcode-assisted,192.0,2.0,10.58,93.05,46963.92,5.0,Medium,Review reorder levels
+PH099,2026-09-30,Nalgonda,Hospital,Standard,104.0,3.0,8.45,95.12,25133.42,2.0,Low,Stock counts verified
+PH100,2026-09-30,Nalgonda,Community,Barcode-assisted,138.0,5.0,6.94,98.65,33778.2,0.0,Low,Stock counts verified
+PH101,2026-09-30,Warangal,Community,Standard,117.0,4.0,8.63,92.3,30907.34,1.0,Medium,Review reorder levels
+PH102,2026-09-30,Hyderabad,Community,Standard,152.0,3.0,7.89,90.82,41579.03,2.0,Medium,Routine stock check completed
+PH103,2026-09-30,Nalgonda,Community,Standard,94.0,4.0,8.2,93.25,29618.08,1.0,Medium,Review reorder levels
+PH104,2026-09-30,Hyderabad,Community,Standard,214.0,2.0,9.5,91.55,47409.97,1.0,Medium,Supplier delivery expected
+PH105,2026-09-30,Hyderabad,Community,Barcode-assisted,209.0,6.0,7.79,98.92,49590.47,1.0,Low,Routine stock check completed
+PH106,2026-09-30,Nalgonda,Community,Barcode-assisted,174.0,4.0,6.51,92.52,46053.53,3.0,Medium,Stock counts verified
+PH107,2026-09-30,Nalgonda,Community,Standard,147.0,2.0,,96.06,38092.46,0.0,Low,Supplier delivery expected
+PH108,2026-09-30,Nalgonda,Community,Barcode-assisted,181.0,4.0,7.32,92.1,47634.04,2.0,Medium,Routine stock check completed
+PH109,2026-09-30,Nalgonda,Community,Barcode-assisted,138.0,5.0,7.23,95.66,36153.97,1.0,Low,Stock counts verified
+PH110,2026-09-30,Nalgonda,Community,Barcode-assisted,203.0,4.0,11.67,94.66,46248.84,2.0,Medium,Review reorder levels
+PH111,2026-09-30,Hyderabad,Hospital,Standard,75.0,4.0,8.74,96.21,22027.1,1.0,Low,Supplier delivery expected
+PH112,2026-09-30,Warangal,Community,Barcode-assisted,98.0,5.0,6.95,96.91,26973.97,2.0,Low,Routine stock check completed
+PH113,2026-09-30,Warangal,Hospital,Standard,136.0,2.0,9.44,91.24,38553.74,1.0,Medium,Stock counts verified
+PH114,2026-09-30,Nalgonda,Community,Barcode-assisted,166.0,4.0,5.95,97.15,39739.65,3.0,Low,Stock counts verified
+PH115,2026-09-30,Warangal,Community,Barcode-assisted,175.0,4.0,8.89,95.83,40482.4,3.0,Low,Routine stock check completed
+PH116,2026-09-30,Nalgonda,Community,Barcode-assisted,176.0,6.0,9.09,92.61,45574.15,1.0,Medium,Review reorder levels
+PH117,2026-09-30,Hyderabad,Community,Barcode-assisted,211.0,4.0,7.83,94.1,49796.02,5.0,Medium,Routine stock check completed
+PH118,2026-09-30,Hyderabad,Community,Barcode-assisted,196.0,2.0,11.59,89.38,47261.33,1.0,High,Stock counts verified
+PH119,2026-09-30,Nalgonda,Hospital,Standard,207.0,6.0,8.06,94.13,54247.57,3.0,Medium,Routine stock check completed
+PH120,2026-09-30,Nalgonda,Community,Standard,118.0,3.0,5.98,90.8,32689.13,2.0,Medium,Stock counts verified
+PH031,2026-09-30,Hyderabad,Hospital,Barcode-assisted,155.0,5.0,4.89,92.53,36508.88,3.0,Medium,Stock counts verified
+PH032,2026-09-30,Warangal,Hospital,Barcode-assisted,164.0,5.0,5.56,86.79,43918.72,4.0,High,Review reorder levels
+PH033,2026-09-30,Hyderabad,Community,Standard,77.0,2.0,6.27,92.85,19859.82,3.0,Medium,Review reorder levels
+PH034,2026-09-30,Warangal,Community,Barcode-assisted,167.0,2.0,7.99,93.28,40364.71,2.0,Medium,Supplier delivery expected
+PH037,2026-09-30,Nalgonda,Hospital,Standard,187.0,3.0,9.68,91.88,41484.35,4.0,Medium,Supplier delivery expected

@@ -1,0 +1,22 @@
+{
+  "executed_at_utc": "2026-10-30T13:49:36.904383+00:00",
+  "python": "3.13.16 (main, Oct  6 2026, 04:38:44) [GCC 14.2.0]",
+  "platform": "Linux-6.1.158+-x86_64-with-glibc2.41",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "seaborn": "0.13.2",
+    "python-docx": "1.1.2",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "6.31.0",
+    "pytest": "9.0.3",
+    "ruff": "0.14.3"
+  },
+  "raw_sha256": "186124eeb450a14b214788d82e1754373910e60879dc1c015132e025da993977",
+  "clean_sha256": "e8beca33606e6fc25adc3923279bdece532fe5b2022d87cce00b042bdc5d8ef8",
+  "seed": 2026,
+  "figures_written": 7
+}
